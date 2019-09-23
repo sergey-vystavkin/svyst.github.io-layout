@@ -1,0 +1,61 @@
+section.kinds{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+div.kinds{
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1f1f1;
+}
+div.kinds > div{
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.kinds > div > img{
+    padding-top: 2vh;
+    height: 40px;
+}
+div.kinds > div > ul{
+    text-align: center;
+    line-height: 200%;
+    list-style: none;
+}
+div.kinds li.kind-title{
+    font-size: 80%;
+    font-weight: bold;
+}
+div.kinds li.description{
+    font-size: 80%;
+    padding: 0 3vw;
+}
+
+
+div.banner{
+    display: flex;
+    height: 50vh;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: #4fd0b5;
+    color: white;
+}
+div.banner > p{
+    text-align: center;
+    width: 40vw;
+    font-size: 120%;
+    font-width: 600;
+}
+div.banner > p.author{
+    font-size: 70%;
+}

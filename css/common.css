@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./home.css";
+@import "./about.css";
+@import "./work.css";
+@import "./kinds_and_banner.css";
+@import "./footer.css";
+@import "./order.css";
+body{
+    font-family: Helvetica, sans-serif;
+}

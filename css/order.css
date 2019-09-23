@@ -1,0 +1,72 @@
+section.order{
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+section.order > h1{
+    font-size: 190%;
+    margin: 0;
+}
+section.order > p{
+    text-align: center;
+    width: 40vw;
+    color: #000000cc;
+    line-height: 25px;
+}
+
+
+section.order > form{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.order > form  .contact{
+    margin: 5px 0;
+    border: none;
+    width: 24vw;
+    height: 5vh;
+    padding-left: 20px;
+    font-size: 110%;
+    box-sizing: border-box;
+}
+section.order > form  .title{
+    margin: 5px 0;
+    border: none;
+    width: 50vw;
+    height: 5vh;
+    padding-left: 20px;
+    font-size: 110%;
+    box-sizing: border-box;
+}
+section.order > form  textarea{
+    margin: 5px 0;
+    border: none;
+    width: 50vw;
+    height: 18vh;
+    font-family: Helvetica, sans-serif;
+    padding-top: 10px;
+    resize: none;
+    padding-left: 20px;
+    font-size: 110%;
+    box-sizing: border-box;
+}
+section.order > form  .send{
+    margin: 5px 20vw;
+    border: none;
+    width: 10vw;
+    height: 7vh;
+    background: #4fd0b5;
+    color: white;
+    font-weight: 500;
+}
+form  .contact::placeholder, form  .title::placeholder, form  textarea::placeholder, form  .send::placeholder{
+    color: #0000008f;
+}

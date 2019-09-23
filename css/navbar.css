@@ -1,0 +1,25 @@
+nav.navbar{
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav.navbar ul{
+    right: 0;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+
+}
+nav.navbar li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 100%;
+    font-family: Helvetica, sans-serif;
+}
+nav.navbar li:hover{
+    color: #4fd0b5;
+}

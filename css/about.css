@@ -1,0 +1,60 @@
+section.about{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+div.about_us{
+    padding: 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+div.about_us > h1{
+    font-weight: 550;
+    font-size: 190%;
+    }
+div.about_us > p{
+    text-indent: 40px;
+    text-align: center;
+}
+
+
+div.about_us  img{
+    height: 100px;
+}
+
+div.results{
+    display: flex;
+    height: 50vh;
+    background: #4fd0b5;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+div.results > div{
+    display: flex;
+}
+
+div.results > div  img{
+    height: 70px;
+}
+
+figure {
+    display: inline-block; /* Выстраиваем по горизонтали */
+    padding: 10px; /* Поля */
+    margin: 0 1em 0 0; /* Отступ справа */
+   }
+
+figure figcaption {
+    float: right;
+    padding: 5px 5px 5px 10px;
+    text-transform: uppercase;
+}
+
+figure > figcaption > div.nums{
+    font-size: 130%;
+}

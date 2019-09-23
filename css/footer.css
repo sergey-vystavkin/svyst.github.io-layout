@@ -1,0 +1,23 @@
+footer{
+    margin: 0;
+    padding: 0;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background: #141414;
+    color: #ffffffad;
+    font-size: 90%;
+}
+footer > ul{
+    list-style: none;
+    line-height: 25px;
+}
+footer > div{
+    padding-top: 30px;
+}
+footer  h2{
+    color: white;
+}
+

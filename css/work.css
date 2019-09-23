@@ -1,0 +1,39 @@
+section.work{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background: #000000a1;
+}
+section.work > div{
+    height: 42.5vh;
+    width: 25vw;
+    background-image: url("./images/eye.svg");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    z-index: 4;
+}
+
+section.work img{
+    height: 42.5vh;
+    width: 25vw;
+}
+section.work > div.more{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #dddddd;
+    font-weight: bold;
+    color: #808080bd;
+}
+section.work img:hover{
+    opacity: 0.1;
+}
+
+

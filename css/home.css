@@ -1,0 +1,43 @@
+@import "./navbar.css";
+section.home{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/123.jpg");
+    background-size: cover;
+}
+
+div.text-container{
+    align-self: flex-end;
+    margin: 20vh 10vw 30vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 300px;
+    width: 550px;
+}
+
+div.text-container h1{
+    margin: 0;
+    font-weight: 550;
+    font-size: 290%;
+}
+div.text-container p{
+    font-size: 120%;
+    margin: 0;
+}
+div.text-container button{
+    background: #4fd0b5;
+    border: none;
+    color: white;
+    width: 190px;
+    padding: 10%;
+    font-size: 90%;
+    margin: 0;
+}
+div.text-container button:hover{
+    color: #e5e5e5;
+}
